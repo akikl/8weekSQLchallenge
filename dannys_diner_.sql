@@ -1,6 +1,6 @@
 -- 1.Total amount each customer spent at the restaurant 
 select
-    customer_id, SUM(price) 'Total_Amount_Spent'
+    customer_id,sum(price) 'Total_Amount_Spent'
 from
     menu m
         inner join
